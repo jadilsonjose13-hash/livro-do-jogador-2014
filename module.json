@@ -1,0 +1,357 @@
+{
+  "id": "livro-do-jogador-2014",
+  "title": "Livro do Jogador (2014)",
+  "version": "1.6.2.1",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "ATL",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "dnd-item-compendium-by-gwill",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "livro-do-mestre-2014",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "livro-dos-monstros-2014",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "<p>Tudo o que os jogadores precisam para criar personagens heroicos para o maior RPG de todos os tempos.</p>",
+  "authors": [
+    {
+      "name": "Jadilson Santos",
+      "email": "jadilsonjose13@gmail.com",
+      "discord": "png_man",
+      "flags": {}
+    }
+  ],
+  "media": [
+    {
+      "type": "setup",
+      "thumbnail": "modules/livro-do-jogador-2014/imagens/thumb-modulo.jpg",
+      "loop": false,
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "armas",
+      "label": "Armas",
+      "path": "packs/armas",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "armaduras-e-escudos",
+      "label": "Armaduras e Escudos",
+      "path": "packs/armaduras-e-escudos",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "equipamento-de-aventura",
+      "label": "Equipamento de Aventura",
+      "path": "packs/equipamento-de-aventura",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ferramentas",
+      "label": "Ferramentas",
+      "path": "packs/ferramentas",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "classes",
+      "label": "Classes",
+      "path": "packs/classes",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "caracteristicas-de-classes",
+      "label": "Características de Classes",
+      "path": "packs/caracteristicas-de-classes",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "racas",
+      "label": "Raças",
+      "path": "packs/racas",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "caracteristicas-de-racas",
+      "label": "Características de Raças",
+      "path": "packs/caracteristicas-de-racas",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "antecedentes",
+      "label": "Antecedentes",
+      "path": "packs/antecedentes",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "caracteristicas-de-antecedentes",
+      "label": "Características de Antecedentes",
+      "path": "packs/caracteristicas-de-antecedentes",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "magias",
+      "label": "Magias",
+      "path": "packs/magias",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {
+        "dnd5e": {
+          "types": [
+            "spell"
+          ]
+        }
+      }
+    },
+    {
+      "name": "talentos",
+      "label": "Talentos",
+      "path": "packs/talentos",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "tabelas",
+      "label": "Tabelas",
+      "path": "packs/tabelas",
+      "type": "RollTable",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "miscelanea",
+      "label": "Miscelânea",
+      "path": "packs/miscelanea",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "regras",
+      "label": "Regras",
+      "path": "packs/regras",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "comida-e-bebida",
+      "label": "Comida e Bebida",
+      "path": "packs/comida-e-bebida",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "atores",
+      "label": "Atores",
+      "path": "packs/atores",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "montarias-e-veiculos",
+      "label": "Montarias e Veículos",
+      "path": "packs/montarias-e-veiculos",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "bens-comerciais",
+      "label": "Bens Comerciais",
+      "path": "packs/bens-comerciais",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Livro do Jogador (2014)",
+      "sorting": "a",
+      "color": "#4a6898",
+      "packs": [
+        "magias",
+        "talentos",
+        "tabelas",
+        "regras",
+        "atores"
+      ],
+      "folders": [
+        {
+          "name": "Antecedentes",
+          "sorting": "a",
+          "color": "#425d88",
+          "packs": [
+            "antecedentes",
+            "caracteristicas-de-antecedentes"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Classes",
+          "sorting": "m",
+          "color": "#3b5379",
+          "packs": [
+            "classes",
+            "caracteristicas-de-classes"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Equipamento",
+          "sorting": "a",
+          "color": "#33486a",
+          "packs": [
+            "armas",
+            "armaduras-e-escudos",
+            "equipamento-de-aventura",
+            "ferramentas",
+            "miscelanea",
+            "comida-e-bebida",
+            "montarias-e-veiculos",
+            "bens-comerciais"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Raças",
+          "sorting": "m",
+          "color": "#2c3e5b",
+          "packs": [
+            "racas",
+            "caracteristicas-de-racas"
+          ],
+          "folders": []
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "spellLists": [
+        "Compendium.livro-do-jogador-2014.regras.JournalEntry.3Kvlh7SUBedssrtz.JournalEntryPage.k4AFXlh8TYbRbY3W",
+        "Compendium.livro-do-jogador-2014.regras.JournalEntry.3Kvlh7SUBedssrtz.JournalEntryPage.4QXJUAjmZ10ipCcL",
+        "Compendium.livro-do-jogador-2014.regras.JournalEntry.3Kvlh7SUBedssrtz.JournalEntryPage.4w1eLj7xMbWOymr3",
+        "Compendium.livro-do-jogador-2014.regras.JournalEntry.3Kvlh7SUBedssrtz.JournalEntryPage.6i8YWwapVUL4zS4v",
+        "Compendium.livro-do-jogador-2014.regras.JournalEntry.3Kvlh7SUBedssrtz.JournalEntryPage.WcykHnhlbrwapgyP",
+        "Compendium.livro-do-jogador-2014.regras.JournalEntry.3Kvlh7SUBedssrtz.JournalEntryPage.ypQ63eCbuIZAg3JJ",
+        "Compendium.livro-do-jogador-2014.regras.JournalEntry.3Kvlh7SUBedssrtz.JournalEntryPage.rVmzBI9TWASJrScu",
+        "Compendium.livro-do-jogador-2014.regras.JournalEntry.3Kvlh7SUBedssrtz.JournalEntryPage.66dYPKq1MCLxy7U7"
+      ],
+      "sourceBooks": {
+        "PHB 2014": "Livro do Jogador (2014)"
+      }
+    }
+  },
+  "url": "https://github.com/jadilsonjose13-hash/livro-do-jogador-2014",
+  "manifest": "https://raw.githubusercontent.com/jadilsonjose13-hash/livro-do-jogador-2014/refs/heads/main/module.json",
+  "download": "https://github.com/jadilsonjose13-hash/livro-do-jogador-2014/archive/refs/heads/main.zip"
+}
