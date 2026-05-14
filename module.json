@@ -1,9 +1,9 @@
 {
   "id": "livro-do-jogador-2014",
   "title": "Livro do Jogador (2014)",
-  "version": "1.6.2.1",
+  "version": "1.7.0",
   "compatibility": {
-    "minimum": "12",
+    "minimum": "13",
     "verified": "13"
   },
   "relationships": {
@@ -201,7 +201,7 @@
       "type": "RollTable",
       "system": "dnd5e",
       "ownership": {
-        "PLAYER": "OBSERVER",
+        "PLAYER": "LIMITED",
         "ASSISTANT": "OWNER"
       }
     },
@@ -212,7 +212,7 @@
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
-        "PLAYER": "OBSERVER",
+        "PLAYER": "LIMITED",
         "ASSISTANT": "OWNER"
       }
     },
@@ -245,7 +245,7 @@
       "type": "Actor",
       "system": "dnd5e",
       "ownership": {
-        "PLAYER": "OBSERVER",
+        "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
       }
     },
@@ -350,8 +350,5 @@
         "PHB 2014": "Livro do Jogador (2014)"
       }
     }
-  },
-  "url": "https://github.com/jadilsonjose13-hash/livro-do-jogador-2014",
-  "manifest": "https://raw.githubusercontent.com/jadilsonjose13-hash/livro-do-jogador-2014/refs/heads/main/module.json",
-  "download": "https://github.com/jadilsonjose13-hash/livro-do-jogador-2014/archive/refs/heads/main.zip"
+  }
 }
