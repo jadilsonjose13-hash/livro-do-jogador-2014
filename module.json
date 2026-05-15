@@ -1,7 +1,7 @@
 {
   "id": "livro-do-jogador-2014",
   "title": "Livro do Jogador (2014)",
-  "version": "1.7.0",
+  "version": "1.7.0.1",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -64,7 +64,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "armaduras-e-escudos",
@@ -75,7 +76,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "equipamento-de-aventura",
@@ -86,7 +88,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "ferramentas",
@@ -97,7 +100,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "classes",
@@ -108,7 +112,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "caracteristicas-de-classes",
@@ -119,7 +124,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "racas",
@@ -130,7 +136,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "caracteristicas-de-racas",
@@ -141,7 +148,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "antecedentes",
@@ -152,7 +160,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "caracteristicas-de-antecedentes",
@@ -163,7 +172,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "magias",
@@ -192,7 +202,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "tabelas",
@@ -203,7 +214,8 @@
       "ownership": {
         "PLAYER": "LIMITED",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "miscelanea",
@@ -214,7 +226,8 @@
       "ownership": {
         "PLAYER": "LIMITED",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "regras",
@@ -225,7 +238,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "comida-e-bebida",
@@ -236,7 +250,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "atores",
@@ -245,9 +260,10 @@
       "type": "Actor",
       "system": "dnd5e",
       "ownership": {
-        "PLAYER": "NONE",
+        "PLAYER": "LIMITED",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "montarias-e-veiculos",
@@ -258,7 +274,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "bens-comerciais",
@@ -269,7 +286,8 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "dnd5e"
+      "system": "dnd5e",
+      "flags": {}
     }
   ],
   "packFolders": [
@@ -350,5 +368,8 @@
         "PHB 2014": "Livro do Jogador (2014)"
       }
     }
-  }
+  },
+  "url": "https://github.com/jadilsonjose13-hash/livro-do-jogador-2014",
+  "manifest": "https://raw.githubusercontent.com/jadilsonjose13-hash/livro-do-jogador-2014/refs/heads/main/module.json",
+  "download": "https://github.com/jadilsonjose13-hash/livro-do-jogador-2014/archive/refs/heads/main.zip"
 }
