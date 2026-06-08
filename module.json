@@ -1,7 +1,7 @@
 {
   "id": "livro-do-jogador-2014",
   "title": "Livro do Jogador (2014)",
-  "version": "1.7.0.1",
+  "version": "1.7.0.2",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
